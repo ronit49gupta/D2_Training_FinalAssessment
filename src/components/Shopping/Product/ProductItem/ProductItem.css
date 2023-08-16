@@ -1,0 +1,6 @@
+.card img{
+    height: 13rem;
+    object-fit: contain;
+    padding: 1rem 1rem;
+    border-bottom: 1px solid var(--bs-light);
+}

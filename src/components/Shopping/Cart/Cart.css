@@ -1,0 +1,19 @@
+.order-total-price{
+    justify-content: end;
+}
+
+@media (max-width: 575px) {
+    .list-group-item{
+        flex-wrap: wrap;
+    }   
+    .list-group-item > div {
+        width: 100%;
+    }
+    .list-group-item > span{
+        margin-top: 10px;
+    }
+    .order-total-price{
+        justify-content: start;
+    }
+
+}

@@ -1,0 +1,16 @@
+.productImage{
+    width: 50%;
+}
+
+@media (max-width: 767px) {
+    .productImage{
+        width: 75%;
+    }   
+}
+
+@media (max-width: 575px) {
+    .productImage{
+        width: 50%;
+        margin-bottom: 30px;
+    }   
+}
